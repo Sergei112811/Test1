@@ -66,7 +66,7 @@ export default function Home() {
       <main id="top">
         <section className="hero section-shell">
           <div className="hero-copy">
-            <p className="eyebrow"><span>Москва · Люблино</span> Аренда без водителя</p>
+            <p className="eyebrow"><span>Москва · Люблино</span> Аренда без водителя · от 1 дня</p>
             <h1>Автомобиль для работы — <em>без залога</em> и лимита пробега</h1>
             <p className="hero-lead">LADA Largus или УАЗ Профи для доставки и перевозок. Ездите по всей России без доплаты за километры.</p>
             <div className="hero-facts" aria-label="Основные условия">
