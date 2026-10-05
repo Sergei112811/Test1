@@ -7,8 +7,9 @@ const publicUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
   metadataBase: new URL(publicUrl ?? "http://localhost:3000"),
-  title: "Аренда автомобилей для грузоперевозок",
-  description: "Автомобили для грузоперевозок по Москве и Московской области.",
+  title: "Аренда грузовых автомобилей без водителя | Москва",
+  description:
+    "LADA Largus и УАЗ Профи без залога и ограничения пробега. Аренда без водителя от одного дня, получение в Люблино.",
   robots: publicUrl ? { index: true, follow: true } : { index: false, follow: false },
   openGraph: {
     title: "Аренда автомобилей для грузоперевозок",
